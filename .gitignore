@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+env/
+.vscode/
+data/raw/
+data/processed/
+*.onnx
