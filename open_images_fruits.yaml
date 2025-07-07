@@ -1,0 +1,23 @@
+# open_images_fruits.yaml
+path: data/open_images_fruits   # ← root of your export
+train: train/images             # ← relative to `path`
+val:   val/images
+nc: 17
+names:
+  0: Apple
+  1: Banana
+  2: Cantaloupe
+  3: Coconut
+  4: Grape
+  5: Grapefruit
+  6: Lemon
+  7: Mango
+  8: Orange
+  9: Peach
+  10: Pear
+  11: Pineapple
+  12: Pomegranate
+  13: Strawberry
+  14: Tomato
+  15: Watermelon
+  16: Winter melon

@@ -1,6 +1,7 @@
 import argparse
 from ultralytics import YOLO
 
+
 def parse_args():
     p = argparse.ArgumentParser(description="Train YOLOv8 on Fruits360")
     p.add_argument('--data',   type=str, default="data/fruits360.yaml", help="Path to dataset YAML")
@@ -18,13 +19,15 @@ def main():
     model = YOLO(args.model)
     # Train!
     model.train(
-        data    = args.data,
-        epochs  = args.epochs,
-        imgsz   = args.imgsz,
-        batch   = args.batch,
-        project = args.project,
-        name    = args.name
+    data    = args.data,
+    epochs  = args.epochs,
+    imgsz   = args.imgsz,
+    batch   = args.batch,
+    device  = '0',           # or 'cuda:0'
+    project = args.project,
+    name    = args.name
     )
+
 
 if __name__ == "__main__":
     main()
