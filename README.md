@@ -77,17 +77,18 @@ We leverage Ultralytics YOLOv8 for both detection and classification tasks, usin
 
 ## Validation Batches
 
-### Batch 0  
-![val_batch0_labels](runs/detect/stage2-openimages-fruits11/val_batch0_labels.png)  
-![val_batch0_pred](runs/detect/stage2-openimages-fruits11/val_batch0_pred.png)
+### Batch 0
+![Batch 0 Labels](runs/detect/stage2-openimages-fruits11/val_batch0_labels.jpg)  
+![Batch 0 Predictions](runs/detect/stage2-openimages-fruits11/val_batch0_pred.jpg)
 
-### Batch 1  
-![val_batch1_labels](runs/detect/stage2-openimages-fruits11/val_batch1_labels.png)  
-![val_batch1_pred](runs/detect/stage2-openimages-fruits11/val_batch1_pred.png)
+### Batch 1
+![Batch 1 Labels](runs/detect/stage2-openimages-fruits11/val_batch1_labels.jpg)  
+![Batch 1 Predictions](runs/detect/stage2-openimages-fruits11/val_batch1_pred.jpg)
 
-### Batch 2  
-![val_batch2_labels](runs/detect/stage2-openimages-fruits11/val_batch2_labels.png)  
-![val_batch2_pred](runs/detect/stage2-openimages-fruits11/val_batch2_pred.png)
+### Batch 2
+![Batch 2 Labels](runs/detect/stage2-openimages-fruits11/val_batch2_labels.jpg)  
+![Batch 2 Predictions](runs/detect/stage2-openimages-fruits11/val_batch2_pred.jpg)
+
 
 
 ---
